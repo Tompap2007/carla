@@ -79,6 +79,8 @@ public:
 
   /// Method to switch traffic manager into synchronous execution.
   virtual void SetSynchronousMode(bool mode) = 0;
+  
+  virtual bool GetSynchronousMode() = 0;
 
   /// Method to set Tick timeout for synchronous execution.
   virtual void SetSynchronousModeTimeOutInMiliSecond(double time) = 0;

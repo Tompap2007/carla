@@ -93,6 +93,7 @@ void MotionPlanStage::Update(const unsigned long index) {
   // Target velocity for vehicle.
   const float ego_speed_limit = simulation_state.GetSpeedLimit(actor_id);
   float max_target_velocity = parameters.GetVehicleTargetVelocity(actor_id, ego_speed_limit) / 3.6f;
+  //float max_target_velocity = 5.0f;
 
   // Collision handling and target velocity correction.
   std::pair<bool, float> collision_response = CollisionHandling(collision_hazard, tl_hazard, ego_velocity,
@@ -238,6 +239,8 @@ std::pair<bool, float> MotionPlanStage::CollisionHandling(const CollisionHazardD
                                                           const float max_target_velocity) {
   bool collision_emergency_stop = false;
   float dynamic_target_velocity = max_target_velocity;
+  //float dynamic_target_velocity = max_target_velocity*2.0f;
+  //printf("giorgosgiorgos\n");
 
   if (collision_hazard.hazard && !tl_hazard) {
     const ActorId other_actor_id = collision_hazard.hazard_actor_id;

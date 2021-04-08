@@ -189,6 +189,16 @@ public:
     }
   }
 
+  bool GetSynchronousMode() {
+	  bool result = false;
+	  TrafficManagerBase* tm_ptr = GetTM(_port);
+	  if (tm_ptr != nullptr) {
+		  result =  tm_ptr->GetSynchronousMode();
+	  }
+
+	  return result;
+  }
+
   /// Method to set tick timeout for synchronous execution.
   void SetSynchronousModeTimeOutInMiliSecond(double time) {
     TrafficManagerBase* tm_ptr = GetTM(_port);

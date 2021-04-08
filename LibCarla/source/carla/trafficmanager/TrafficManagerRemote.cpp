@@ -189,6 +189,10 @@ void TrafficManagerRemote::SetSynchronousMode(bool mode) {
   client.SetSynchronousMode(mode);
 }
 
+bool TrafficManagerRemote::GetSynchronousMode() {
+	return client.GetSynchronousMode();
+}
+
 void TrafficManagerRemote::SetSynchronousModeTimeOutInMiliSecond(double time) {
   client.SetSynchronousModeTimeOutInMiliSecond(time);
 }

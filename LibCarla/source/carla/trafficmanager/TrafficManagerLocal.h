@@ -196,6 +196,8 @@ public:
   /// Method to switch traffic manager into synchronous execution.
   void SetSynchronousMode(bool mode);
 
+  bool GetSynchronousMode();
+
   /// Method to set Tick timeout for synchronous execution.
   void SetSynchronousModeTimeOutInMiliSecond(double time);
 

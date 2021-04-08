@@ -1,6 +1,6 @@
 {
 	"FileVersion": 3,
-	"EngineAssociation": "4.24",
+	"EngineAssociation": "{9D53EF47-42C4-3698-BA3B-80A59C127804}",
 	"Category": "",
 	"Description": "",
 	"Modules": [
@@ -105,5 +105,8 @@
 			"Enabled": false,
 			"MarketplaceURL": "com.epicgames.launcher://ue/marketplace/content/2d712649ca864c80812da7b5252f5608"
 		}
+	],
+	"TargetPlatforms": [
+		"AllDesktop"
 	]
 }

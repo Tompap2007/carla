@@ -374,6 +374,11 @@ void TrafficManagerLocal::SetSynchronousMode(bool mode) {
   }
 }
 
+bool TrafficManagerLocal::GetSynchronousMode() {
+	const bool previous_mode = parameters.GetSynchronousMode();
+	return previous_mode;
+}
+
 void TrafficManagerLocal::SetSynchronousModeTimeOutInMiliSecond(double time) {
   parameters.SetSynchronousModeTimeOutInMiliSecond(time);
 }

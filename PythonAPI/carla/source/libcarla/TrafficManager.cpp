@@ -32,6 +32,7 @@ void export_trafficmanager() {
     .def("set_global_distance_to_leading_vehicle", &ctm::TrafficManager::SetGlobalDistanceToLeadingVehicle)
     .def("set_percentage_keep_right_rule", &ctm::TrafficManager::SetKeepRightPercentage)
     .def("set_synchronous_mode", &ctm::TrafficManager::SetSynchronousMode)
+    .def("get_synchronous_mode", &ctm::TrafficManager::GetSynchronousMode)
     .def("set_hybrid_physics_mode", &ctm::TrafficManager::SetHybridPhysicsMode)
     .def("set_hybrid_physics_radius", &ctm::TrafficManager::SetHybridPhysicsRadius)
     .def("set_random_device_seed", &ctm::TrafficManager::SetRandomDeviceSeed)

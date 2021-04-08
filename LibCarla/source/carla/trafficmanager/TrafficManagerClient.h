@@ -142,6 +142,11 @@ public:
   void SetSynchronousMode(const bool mode) {
     DEBUG_ASSERT(_client != nullptr);
     _client->call("set_synchronous_mode", mode);
+  } /// Method to switch traffic manager into synchronous execution.
+  
+  bool GetSynchronousMode() {
+    DEBUG_ASSERT(_client != nullptr);
+	return _client->call("get_synchronous_mode").as<bool>();
   }
 
   /// Method to set tick timeout for synchronous execution.

@@ -1,0 +1,46 @@
+<?xml version="1.0"?>
+<scenarios>
+    <scenario name="ManeuverOppositeDirection_1" type="ManeuverOppositeDirection" town="Town03">
+        <ego_vehicle x="17" y="136" z="2" yaw="0" model="vehicle.lincoln.mkz2017" />
+    </scenario>
+    <scenario name="ManeuverOppositeDirection_2" type="ManeuverOppositeDirection" town="Town04">
+        <ego_vehicle x="63.3" y="-190.3" z="2" yaw="270" model="vehicle.lincoln.mkz2017" />
+    </scenario>
+    <scenario name="ManeuverOppositeDirection_3" type="ManeuverOppositeDirection" town="Town04">
+        <ego_vehicle x="192" y="-311.5" z="2" yaw="180" model="vehicle.lincoln.mkz2017" />
+    </scenario>
+    <scenario name="ManeuverOppositeDirection_32" type="ManeuverOppositeDirection" town="Town04">
+        <ego_vehicle x="183" y="-302.5" z="2" yaw="180" model="vehicle.lincoln.mkz2017" speed="40"/>
+    </scenario>
+    <scenario name="ManeuverOppositeDirection_31" type="ManeuverOppositeDirection" town="Town04">
+<!--
+        <ego_vehicle x="-337" y="435.8" z="5.5" yaw="0" model="vehicle.lincoln.mkz2017" />
+        <ego_vehicle x="44.8" y="-98.3" z="0" yaw="-18" model="vehicle.lincoln.mkz2017" />
+        <ego_vehicle x="178" y="-395.8" z="0" yaw="180" model="vehicle.lincoln.mkz2017" />
+-->
+        <ego_vehicle x="269" y="-246" z="0" yaw="0" model="vehicle.tesla.model3" rolename="hero"/>
+<!--
+        <ego_vehicle x="388.9" y="-140" z="0" yaw="90" model="vehicle.lincoln.mkz2017" />
+        <ego_vehicle x="-510" y="88" z="0" yaw="91" model="vehicle.lincoln.mkz2017" />
+        <ego_vehicle x="138.9" y="34.9" z="10" yaw="1" model="vehicle.lincoln.mkz2017" />
+        <ego_vehicle x="-110" y="9.1" z="9.5" yaw="180" model="vehicle.lincoln.mkz2017" />
+        <ego_vehicle x="-12.5" y="-17" z="0" yaw="90" model="vehicle.lincoln.mkz2017" />
+        <ego_vehicle x="125.5" y="225.1" z="0" yaw="-25" model="vehicle.lincoln.mkz2017" />
+        <ego_vehicle x="156.27" y="18.7" z="10.31" yaw="180" model="vehicle.lincoln.mkz2017" />
+        <ego_vehicle x="151.8" y="17.7" z="10.31" yaw="180" model="vehicle.lincoln.mkz2017" />
+        <ego_vehicle x="311.4" y="-220.2" z="0.3" yaw="90" model="vehicle.lincoln.mkz2017" />
+        <ego_vehicle x="274.1" y="-246.2" z="0.3" yaw="0" model="vehicle.lincoln.mkz2017" />
+        <ego_vehicle x="244.7" y="-249.4" z="1" yaw="180" model="vehicle.lincoln.mkz2017" />
+        <ego_vehicle x="250" y="-311" z="0.1" yaw="-179" model="vehicle.lincoln.mkz2017" />
+        <ego_vehicle x="255.2" y="-300.4" z="0.5" yaw="90" model="vehicle.lincoln.mkz2017" />
+        <ego_vehicle x="-326.2  " y="435.8" z="0" yaw="0" model="vehicle.lincoln.mkz2017" />
+-->
+
+<!--
+#        <ego_vehicle x="82" y="249.1" z="0" yaw="-33" model="vehicle.lincoln.mkz2017" speed="40"/>
+-->
+    </scenario>
+    <scenario name="ManeuverOppositeDirection_4" type="ManeuverOppositeDirection" town="Town05">
+        <ego_vehicle x="94" y="144.7" z="2" yaw="-19" model="vehicle.lincoln.mkz2017" />
+    </scenario>
+</scenarios>
